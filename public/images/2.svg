@@ -1,0 +1,58 @@
+<svg width="400" height="520" viewBox="0 0 400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9A07A"/>
+      <stop offset="100%" stop-color="#BF8560"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1B20"/>
+      <stop offset="100%" stop-color="#0E0F12"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2026"/>
+      <stop offset="100%" stop-color="#141519"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97742" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F09564" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient outline glow -->
+  <path d="M120 480 C120 410, 150 370, 200 370 C250 370, 280 410, 280 480 Z" fill="none" stroke="url(#amberGlow)" stroke-width="2" opacity="0.3"/>
+
+  <!-- Torso / Dark Developer Hoodie -->
+  <path d="M80 520 C90 420, 140 370, 200 370 C260 370, 310 420, 320 520 Z" fill="url(#hoodie)"/>
+  
+  <!-- Hoodie Zipper & Collar Accent -->
+  <path d="M200 370 L200 520" stroke="#2B2E38" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <path d="M165 375 C185 410, 215 410, 235 375" fill="none" stroke="#2B2E38" stroke-width="3"/>
+
+  <!-- Neck -->
+  <path d="M175 320 L175 385 C185 390, 215 390, 225 385 L225 320 Z" fill="url(#skin)"/>
+
+  <!-- Head Base -->
+  <path d="M150 200 C150 140, 250 140, 250 200 C250 265, 235 320, 200 325 C165 320, 150 265, 150 200 Z" fill="url(#skin)"/>
+
+  <!-- Ears -->
+  <ellipse cx="148" cy="235" rx="9" ry="16" fill="url(#skin)"/>
+  <ellipse cx="252" cy="235" rx="9" ry="16" fill="url(#skin)"/>
+
+  <!-- Modern Hair Cutout -->
+  <path d="M140 185 C145 125, 210 110, 260 135 C265 170, 255 210, 252 215 C245 175, 225 155, 185 160 C160 165, 150 180, 140 185 Z" fill="url(#hair)"/>
+  <path d="M142 185 C138 210, 145 220, 148 230 C150 215, 153 195, 160 185 Z" fill="url(#hair)"/>
+
+  <!-- Developer Glasses -->
+  <rect x="156" y="210" width="34" height="22" rx="4" fill="none" stroke="#E6E4D9" stroke-width="2.5" opacity="0.9"/>
+  <rect x="210" y="210" width="34" height="22" rx="4" fill="none" stroke="#E6E4D9" stroke-width="2.5" opacity="0.9"/>
+  <line x1="190" y1="220" x2="210" y2="220" stroke="#E6E4D9" stroke-width="2.5" opacity="0.9"/>
+  <line x1="147" y1="218" x2="156" y2="218" stroke="#E6E4D9" stroke-width="2" opacity="0.9"/>
+  <line x1="244" y1="218" x2="253" y2="218" stroke="#E6E4D9" stroke-width="2" opacity="0.9"/>
+
+  <!-- Glasses Reflection Glow -->
+  <path d="M160 214 L175 228" stroke="#D97742" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M214 214 L229 228" stroke="#D97742" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Subtle Smile -->
+  <path d="M188 278 Q200 286 212 278" fill="none" stroke="#8C583C" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
